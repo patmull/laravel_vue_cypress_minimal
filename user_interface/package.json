@@ -1,0 +1,52 @@
+{
+  "name": "way4solution_vue",
+  "version": "0.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "build": "vite build",
+    "serve": "vite serve",
+    "build-watch": "vite build --watch",
+    "serve-heroku": "vite --host 0.0.0.0 --port $PORT"
+  },
+  "dependencies": {
+    "@headlessui/vue": "^1.7.18",
+    "@heroicons/vue": "^2.1.1",
+    "@primevue/themes": "^4.0.0",
+    "@tailwindcss/forms": "^0.5.7",
+    "@vitejs/plugin-vue": "^4.5.2",
+    "autoprefix": "^1.0.1",
+    "autoprefixer": "^10.4.17",
+    "axios": "^1.6.7",
+    "dotenv-webpack": "^8.1.0",
+    "i18n": "^0.15.1",
+    "laravel-permission-to-vuejs": "^3.0.2",
+    "pinia": "^2.1.7",
+    "postcss": "^8.4.34",
+    "primeflex": "^3.3.1",
+    "primeicons": "^6.0.1",
+    "primevue": "^3.51.0",
+    "tailwind": "^4.0.0",
+    "tailwindcss": "^3.4.1",
+    "vite": "^5.0.8",
+    "vue": "^3.3.11",
+    "vue-disable-autocomplete": "^0.0.4",
+    "vue-router": "^4.0.13",
+    "vue-select": "^4.0.0-beta.6",
+    "vuex": "^4.0.2"
+  },
+  "engines": {
+    "node": "21.x"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "@types/cors": "^2.8.17",
+    "@types/vue-select": "^2.5.0",
+    "@vue/cli-service": "^5.0.8",
+    "cypress": "^13.16.1",
+    "playwright-webkit": "^1.48.2"
+  }
+}

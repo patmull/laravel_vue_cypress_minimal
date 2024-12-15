@@ -1,0 +1,7 @@
+npx cypress run --spec cypress/e2e/register-production.cy.js --browser /opt/firefox/firefox --headed --no-exit
+npx cypress run --spec cypress/e2e/register.cy.js --browser /opt/firefox/firefox --headed --no-exit
+npx cypress run --spec cypress/e2e/register.cy.js --browser firefox --headed --no-exit
+
+
+# only headless work:
+npx cypress run --spec cypress/e2e/register-production.cy.js --browser webkit --no-exit

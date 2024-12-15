@@ -1,0 +1,21 @@
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap");
+@import 'vue-select/dist/vue-select.css';
+@layer tailwind-base, primevue, tailwind-utilities;
+
+@layer tailwind-base {
+    @tailwind base;
+}
+
+@layer tailwind-utilities {
+    @tailwind components;
+    @tailwind utilities;
+}
+
+#hamburger-menu {
+    width: 90px;
+}
+
+.slash-between-inputs {
+    margin-top: 20px;
+}

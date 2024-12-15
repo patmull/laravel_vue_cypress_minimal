@@ -1,0 +1,7 @@
+# Local preview:
+npm run build
+serve -s dist
+
+# Running Mac + Safari on QEMU:
+cd ~/OSX-KVM 
+. OpenCore-Boot.sh

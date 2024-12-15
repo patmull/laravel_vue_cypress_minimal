@@ -1,0 +1,203 @@
+  737  sudo nginx
+  738  brew update && brew reinstall nginx
+  739  brew services start nginx
+  744  sudo apt install nginx
+  745  sudo apt install php-fpm php-curl php-mysql
+  746  sudo update-alternatives --config php
+  747  php -v
+  748  sudo apt-get install network-manager libnss3-tools jq xsel dnsmasq inotify-tools
+  757  sudo systemctl start nginx
+  758  journalctl -xeu nginx.service
+
+  765  sudo systemctl start nginx
+  766  journalctl -xeu nginx.service
+  767  journalctl -xeu nginx.service -v
+  768  journalctl -xeu nginx.service --verbose
+  769  journalctl -v -xeu nginx.service
+  770  sudo fuser -k 80/tcp
+  771  sudo systemctl restart nginx
+  772  sudo service apache2 stop
+  773  sudo systemctl restart nginx
+  774  sudo systemctl start nginx
+  775  journalctl -xeu nginx.service
+
+  781  sudo rm /etc/nginx/sites-enabled/default
+  782  sudo fuser -k 80/tcp
+  783  sudo systemctl restart nginx
+  784  sudo killall nginx
+  785  sudo systemctl start nginx
+  786  sudo lsof -i:443
+  787  sudo service apache2 stop
+  788  cd ~/wtc
+  789  cd ~/etc
+  790  ls
+  791  cd ..
+  792  cd ~/
+  793  ls
+  794  cd ..
+  795  ls
+  796  cd etc/nginx/
+  797  ls
+  798  sudo npm install -g @vue/cli
+  799  cd cd /etc/nginx/sites-available/
+  800  cd /etc/nginx/sites-available/
+  801  ls
+  802  sudo nano way4solution
+  803  ps -fea | grep nginx
+  804  sudo nano way4solution
+  805  ps -fea | grep nginx
+  806  ls -l /home/sammy/vuetify-meets-nginx-app/dist/
+  807  sudo nano way4solution
+  808  sudo cp -r /home/patri/Codes/way4solution/way4solution-backend/way4solution-pracovnici/user_interface/dist/ /var/www/way4solution
+  809  cd /var/www/way4solution/
+  810  LS
+  811  ls
+  812  sudo usermod -aG www-data patri
+  813  sudo nano way4solution
+  814  ls
+  815  cd /etc/nginx
+  816  ls
+  817  cd sites-available/
+  818  ls
+  819  nano way4solution
+  820  sudo nano way4solution
+  821  cd /etc/nginx/sites-enabled/
+  822  ls
+  823  sudo ln -s /etc/nginx/sites-available/way4solution
+  824  ls
+  825  sudo nginx -t
+  826  sudo systemctl restart nginx
+  827  sudo systemctl status nginx
+  828  cd ..
+  829  ls
+  830  cd sites-available/
+  831  ls
+  832  cd /etc
+  833  ls
+  834  cd nginx/sites-available/
+  835  ls
+  836  nano way4solution
+  837  sudo nano way4solution
+  838  sudo systemctl restart nginx
+  839  sudo systemctl status nginx
+  840  sudo nano way4solution
+  841  sudo systemctl restart nginx
+  842  sudo systemctl status nginx
+  843  sudo nano way4solution
+  844  sudo systemctl restart nginx
+  845  sudo nano way4solution
+  846  cd /var/www/way4solution-pracovnici/user_interface/dist/
+  848  cd ~/var/www/way4solution-pracovnici/user_interface/dist/
+  849  cd ..
+  850*
+  851  ls
+  852  cd ..
+  853  ls
+  854  cd var/
+  855  ls
+  856  cd www
+  857  ls
+  858  cd way4solution/
+  859  ls
+  860  sudo cp -r /home/patri/Codes/way4solution/way4solution-backend/way4solution-pracovnici/user_interface/dist/ /var/www/way4solution
+  861  ls
+  862  cd /etc/nginx/sites-available/
+  863  ls
+  864  cd way4solution
+  865  ls
+  866  cd way4solution
+  867  ls
+  868  nano way4solution
+  869  sudo nano way4solution
+  870  ls
+  871  sudo systemctl restart nginx
+  872  sudo systemctl status nginx
+  873  nano way4solution
+  874  cd /var/www/way4solution-pracovnici/dist/
+  875  cd /var/www/way4solution/dist/
+  876  cd /etc/nginx/sites-available/
+  877  ls
+  878  nano way4solution
+  879  sudo nano way4solution
+  880  sudo systemctl restart nginx
+  881  sudo systemctl status nginx
+  882  ls
+  883  sudo apt install php-mbstring php-xml php-bcmath php-curl
+  884  cd ~/Codes/
+  885  ls
+  886  cd way4solution/
+  887  ls
+  888  cd way4solution-frontend/
+  889  ls
+  890  cd ..
+  891  ls
+  892  cd way4solution-backend/
+  893  ls
+  894  cd way4solution-pracovnici/
+  895  ls
+  896  cd ..
+  897  cp way4solution-pracovnici/ /var/www/way4solution-api
+  898  cp -r way4solution-pracovnici/ /var/www/way4solution-api
+  899  sudo cp -r way4solution-pracovnici/ /var/www/way4solution-api
+  900  sudo chown -R www-data.www-data /var/www/way4solution-api/storage
+  901  sudo chown -R www-data.www-data /var/www/way4solution-api/bootstrap/cache
+  902  sudo nano /atc/nginx/sites-available/way4solution-api
+  903  sudo nano /etc/nginx/sites-available/way4solution-api
+  904  sudo ln -s /etc/nginx/sites-available/way4solution-api /etc/nginx/sites-enabled/
+  905  sudo nginx -t
+  906  sudo systemctl reload nginx
+  907  sudo ln -s /etc/nginx/sites-available/way4solution-api /etc/nginx/sites-enabled/
+  908  sudo nano /etc/nginx/sites-available/way4solution-api
+  909  sudo systemctl reload nginx
+  910  sudo systemctl restart nginx
+  911  sudo systemctl status nginx
+  912  sudo nano /etc/nginx/sites-available/way4solution-api
+  913  cd /var/www/way4solution-api/public
+  914  ls
+  915  cd ..
+  916  ls
+  917  sudo nano /etc/nginx/sites-available/way4solution-api
+  918  systemctl restart nginx
+  919  sudo systemctl restart nginx
+  920  sudo nano /etc/nginx/sites-available/way4solution-api
+  921  sudo systemctl restart nginx
+  922  sudo systemctl status nginx
+  923  sudo nano /etc/nginx/sites-available/way4solution-api
+  924  sudo systemctl restart nginx
+  925  sudo nano /etc/nginx/sites-available/way4solution-api
+  926  sudo systemctl restart nginx
+  927  nginx -t
+  928  sudo nano /etc/nginx/sites-available/way4solution-api
+  929  netstat
+  930  sudo netstat
+  931  sudo apt-get nettools
+  932  sudo apt-get netstat
+  933  netstat
+  934  sudo apt-get install netstat
+  935  sudo apt  install netstat
+  936  sudo apt-get install net-tools
+  937  netstat -tulpn | grep LISTEN
+  938  sudo nano /etc/nginx/sites-available/way4solution-api
+  939  sudo systemctl restart nginx
+  940  sudo nano /etc/nginx/sites-available/way4solution-api
+  941  sudo systemctl restart nginx
+  942* systemctl status nginx.service
+  943  sudo nano /etc/nginx/sites-available/way4solution-api
+  944  sudo systemctl restart nginx
+  945  nginx -t
+  946  sudo nano /etc/nginx/sites-available/way4solution-api
+  947  sudo systemctl restart nginx
+  948  cd ~/Codes/
+  949  ls
+  950  cd way4solution/
+  951  ls
+  952  cd way4solution-backend/
+  953  ls
+  954  cd way4solution-pracovnici/
+  955  ls
+  956  mkdir misc
+  957  cd misc/
+  958  history > nginx_setup_laravel_vue.txt
+  959  nano nginx_setup_laravel_vue.txt
+  960  export HISTSIZE=300
+  961  history > nginx_setup_laravel_vue.txt
