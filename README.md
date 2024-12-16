@@ -1,10 +1,11 @@
-ENV VUE/VITE:
 
+ENV VUE/VITE:
+```
 VITE_APP_URL=http://localhost:5173
 VITE_APP_API_URL=http://localhost:8000
-
+```
 ENV LARAVEL:
-
+```
 APP_NAME=Laravel
 APP_ENV=local
 APP_KEY=base64:gh7mnK7fJFVEW9V485vguP8d9uyPHzIryyWkLSIcEVs=
@@ -60,3 +61,4 @@ REDIS_PASSWORD=null
 REDIS_PORT=6379
 
 VITE_APP_NAME="${APP_NAME}"
+```
