@@ -1,6 +1,0 @@
-SET @USER_ID_VALUE= 906;
-
-DELETE FROM addresses WHERE user_id = @USER_ID_VALUE;
-DELETE FROM company_user WHERE user_id = @USER_ID_VALUE;
-DELETE FROM bank_accounts WHERE user_id = @USER_ID_VALUE;
-DELETE FROM users WHERE id = @USER_ID_VALUE;
