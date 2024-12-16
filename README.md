@@ -1,3 +1,15 @@
+Assuming installed PHP 8.3.14 and NPM 10.9.0, my tested OS is: Fedora Linux 41 KDE Plasa 6.2.4.:
+
+cd user_interface
+npm install
+npm run predeploy
+npm run dev
+
+cd ..
+composer update
+composer install
+php artisan serve
+
 
 ENV VUE/VITE:
 ```
