@@ -536,4 +536,16 @@ fabric.properties
 .ionide
 
 # End of https://www.toptal.com/developers/gitignore/api/laravel,phpstorm,visualstudiocode
+
+# ENV FILES
 /env.old
+.env.local
+.env.production
+.env.test.local
+.env*
+env*
+env
+env-local
+env_local
+.env.test.production
+.env.way4.production

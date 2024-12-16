@@ -21,8 +21,8 @@ import {userStore} from "@/store/userStore";
 import {useGlobalErrorStore} from "@/store/globalErrorStore";
 import { useCommonUserMessage } from "@/store/commonMsgStore";
 import { onMounted } from "vue";
-// import axios from "@/axios";
-import axios from "axios";
+import axios from "@/axios";
+// import axios from "axios";
 
 const userData = userStore();
 const globalError = useGlobalErrorStore();

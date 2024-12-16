@@ -1,6 +1,5 @@
 import axiosLib from "axios";
 
-console.log("import.meta.env.VITE_APP_API_URL: ", import.meta.env.VITE_APP_API_URL);
 
 const axios = axiosLib.create({
   baseURL: import.meta.env.VITE_APP_API_URL,
@@ -9,8 +8,7 @@ const axios = axiosLib.create({
   xsrfCookieName: "XSRF-TOKEN",
   xsrfHeaderName: "X-XSRF-TOKEN",
   headers: {
-    // Accept: "application/json",
-    'X-Requested-With': 'XMLHttpRequest',
+    Accept: "application/json"
   }
 });
 
